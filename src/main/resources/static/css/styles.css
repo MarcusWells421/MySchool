@@ -1,0 +1,165 @@
+body {
+  padding-top: 7%;
+}
+.gradientbg {
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.8), rgba(0,0,0,.7), rgba(0,0,0,.8), rgba(0, 0, 0, 1));
+  height: 1080px;
+}
+
+.header-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top:150px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px;
+  font-size: 24px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.home-container{
+	margin-top:10px;
+}
+.navbar-primary{
+     	background: linear-gradient(#b3b3ff, #1a0033, #3333ff, #1a0033, #b3b3ff);
+     	border-color: #1a0033;
+}
+.navbar-inverse{
+     	background: linear-gradient(to right, rgba(255, 173, 51, 0), rgba(0,0,0,.5), rgba(0,0,0,1), rgba(0, 0, 179, 1));
+     	border-color: #1a0033;
+     	width: 100%;
+		height: 13%;		
+}
+.btn-primary {
+    	background-color: #3333ff;
+}
+.navbar-brand {
+	font-family: Segoe Print;
+	font-size: 3em;
+	font-weight: normal;
+}
+.text-glow {
+   font-size:4em;
+   color: #FFFFFF;
+   font-family:Permanent Marker;
+   }
+.text-glow:hover, .text-glow:focus, .text-glow:active {
+   -webkit-stroke-width: 5.3px;
+   -webkit-stroke-color: #FFFFFF;
+   -webkit-fill-color: #FFFFFF;
+   text-shadow: 3px 3px 3px black;
+   -webkit-transition: width 0.3s; /*Safari & Chrome*/
+   transition: width 0.3s;
+   -moz-transition: width 0.3s; /* Firefox 4 */
+   -o-transition: width 0.3s; /* Opera */
+   }
+   .text-glow a {
+   -webkit-transition: all 0.3s ease-in; /*Safari & Chrome*/
+   transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in; /* Firefox 4 */
+   -o-transition: all 0.3s ease-in; /* Opera */
+   text-decoration:none;
+   color:white;
+   }
+   
+   input[type=checkbox]{
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  padding: 10px;
+}
+.checkboxtext
+{
+  font-size: 140%;
+  display: inline;
+  color: #fff;
+}
+.invisible {
+	color: rgba(0,0,0,0);
+}
+
+.popbutton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(0, 0, 179, 1));
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #4d4d4d;
+  alignment: center;
+}
+
+.popbutton:hover {background: linear-gradient(to bottom right, rgba(0, 0, 179, 1), rgba(77,77,255,1));}
+
+.popbutton:active {
+  background: linear-gradient(to bottom right, rgba(0, 0, 179, 1), rgba(77,77,255,1));
+  box-shadow: 0 5px #000;
+  transform: translateY(4px);
+}
+
+.myschool {
+	font-family: "Segoe Print";
+}
+
+.hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: inset;
+    border-width: 1px;
+    background-color: blue;
+}
+
+.standardinput {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px;
+  font-size: 24px;	
+}
+
+.standardinput:focus {
+  z-index: 2;
+}
+
+.quiztxt {
+	text-align: left;
+}
